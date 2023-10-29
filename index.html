@@ -28,12 +28,24 @@
             </nav>
         </div>
         <div id="secdiv">
-            <img src="images/npm-logo.png" alt="">
-            <img src="images/magnifying-glass.png" alt="">
-            <form action=""></form>
-            <button>Search</button>
-            <button>Join</button>
-            <button>Log in</button>
+            <img id="npm" src="images/npm-logo.png" alt="">
+            <div class="search-container">
+                <div id="mag"><img src="images/magnifying-glass.png" alt=""></div>
+                <div class="searchbar">
+                    <form action="/action_page.php">
+
+
+                        <input type="text" placeholder="Search packages" name="search">
+
+                    </form>
+                </div>
+                <div id="searchbtn"><button type="submit">Search</button></div>
+            </div>
+            <div id="btns">
+                <button id="join">Join</button>
+                <button id="login">Log in</button>
+            </div>
+
 
         </div>
     </header>
@@ -45,7 +57,7 @@
             using modern open source code.</article>
         <div>
             <button id="see_plans">See plans </button>
-            <button>Join for free</button>
+            <button id="join">Join for free</button>
         </div>
     </section>
     <section id="mid">
@@ -59,26 +71,30 @@
 
     </section>
     <section id="bottom">
-        <div>
-            <img src="images/zero-configuration.svg" alt="">
-            <h2>Zero configuration</h2>
-            <p>Create an org, add your team, and start collaborating. Nothing to configure, set up, or manage. </p>
-        </div>
-        <div>
-            <img src="images/team-management.svg" alt="">
-            <h2>Team management</h2>
-            <p>Control who has access to what modules within your team namespace using straightforward team management capabilities. </p>
-        </div>
-        <div>
-            <img src="images/familiar-features.svg" alt="">
-            <h2>Familiar features</h2>
-            <p>npm Orgs has 100% parity with all the public npm registry features your developers already use. </p>
-        </div>
-        <div>
-            <img src="images/npm-audit.svg" alt="">
-            <h2>npm audit</h2>
-            <p>      Enjoy the security
-                auditing features built into the npm client, a zero-friction way to make open source software safer.</p>
+        <div class="grid-container">
+            <div>
+                <img src="images/zero-configuration.svg" alt="">
+                <h2>Zero configuration</h2>
+                <p>Create an org, add your team, and start collaborating. Nothing to configure, set up, or manage. </p>
+            </div>
+            <div>
+                <img src="images/team-management.svg" alt="">
+                <h2>Team management</h2>
+                <p>Control who has access to what modules within your team namespace using straightforward team
+                    management capabilities. </p>
+            </div>
+            <div>
+                <img src="images/familiar-features.svg" alt="">
+                <h2>Familiar features</h2>
+                <p>npm Orgs has 100% parity with all the public npm registry features your developers already use. </p>
+            </div>
+            <div>
+                <img src="images/npm-audit.svg" alt="">
+                <h2>npm audit</h2>
+                <p> Enjoy the security
+                    auditing features built into the npm client, a zero-friction way to make open source software safer.
+                </p>
+            </div>
         </div>
         <button> Create an Org</button>
     </section>
