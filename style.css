@@ -5,9 +5,6 @@ body {
 	margin: 0px 30px;
 }
 
-header {}
-
-
 header>div {
 	/* padding: 0  25px; */
 	display: flex;
@@ -43,8 +40,6 @@ nav a {
 	display: grid;
 	grid-template-columns: 10fr 75fr 15fr;
 	gap: 10px;
-	/* width: 100%; */
-	/* grid-auto-rows: minmax(100px, auto); */
 }
 
 
@@ -98,30 +93,19 @@ nav a {
 
 #secdiv #join {
 	height: 30px;
-	
+
 	font-weight: bold;
 	border: 1px solid black;
 
 }
 
 #login {
-	
+
 	height: 30px;
 	border: none;
 	background-color: transparent;
 }
 
-/* 
-
-
-
-
-
-
-
-
-
-*/
 #top {
 	height: 600px;
 	background-color: rgba(232, 217, 217, .3);
